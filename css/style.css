@@ -1,0 +1,138 @@
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  background-color: white;
+  font-size: 1.2rem;
+  padding: 0px;
+}
+
+/* HEADER */
+
+header.header {
+  background-color: black;
+  text-align: left;
+  padding: 20px;
+  position: relative;
+}
+
+header.div {
+  padding-inline: 16px;
+}
+
+a.logo {
+}
+
+img.header {
+  padding-block: 2rem;
+}
+
+/*SECTION 1*/
+
+.section-1 {
+  background-image: url("../assets/images/banner.jpg");
+  text-align: center;
+  height: 402px;
+  background-position: center center;
+}
+
+.section-1 div {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.section-1 h1 {
+  color: #25a2c3;
+  position: absolute;
+  top: 11%;
+  left: 39%;
+  font-size: 37px;
+  font-weight: bold;
+  padding: 28px;
+}
+
+.section-1 p {
+  color: #555;
+  margin: 0;
+  position: absolute;
+
+  top: 14%;
+  left: 35%;
+
+  transform: translate(-50%, -50%);
+  font-size: 16px;
+}
+
+.section-1 button {
+  padding: 9px 20px;
+  background-color: red;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 12px;
+  position: absolute;
+  top: 17%;
+  left: 34%;
+  transform: translate(-50%, -50%);
+}
+
+/*ASIDE*/
+aside figure {
+  border-radius: 50%;
+  position: center center;
+  box-sizing: border-box;
+}
+
+aside figure img {
+  position: relative;
+  border-radius: 50%;
+}
+
+aside div h3 {
+  color: #25a2c3;
+  position: absolute;
+
+  font-size: 37px;
+  font-weight: bold;
+}
+
+/*SECTION 2*/
+section section-2 {
+  text-align: center;
+  background-color: red;
+}
+
+/*FOOTER*/
+footer {
+  background-color: #25a2c3;
+  color: #c8e7f0;
+  padding-inline: 2rem;
+  font-size: 1 rem;
+  text-align: center;
+}
+footer h2 {
+  color: white;
+  font-size: 1.8rem;
+  padding-top: 1.5rem;
+}
+footer address {
+  padding-top: 1rem;
+  padding-bottom: 1.5rem;
+}
+
+footer a {
+  color: #c8e7f0;
+}
+
+hr {
+  width: 50%;
+}
+
+#copyright {
+  font-size: 0.9rem;
+  padding: 1.5rem;
+  padding-bottom: 3.5rem;
+}
